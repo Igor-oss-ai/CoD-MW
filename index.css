@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+     background-image: linear-gradient(rgb(9, 9, 95), grey);
+}
+
+
+h1{
+    color:darkblue;
+    text-align: center;
+    background-image: linear-gradient(darkblue,grey);
+}
+nav{
+    text-align: center;
+}
+p{
+    color: white;
+}
