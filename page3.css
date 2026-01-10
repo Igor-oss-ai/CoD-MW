@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: gray;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #000033, #161b44);
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 50px;
+    min-height: 500px; 
+    background-image: url('https://i.playground.ru/e/3uVBuTnnOaMtYLUpTEpo7Q.jpeg?1200x1200');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.weapon-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    color: white;
+}
+
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 900px;
+    background-image: linear-gradient(rgb(9, 9, 95), grey);
+}
+nav a:hover{
+    color: blue;
+}
